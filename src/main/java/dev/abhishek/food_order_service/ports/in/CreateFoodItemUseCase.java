@@ -1,4 +1,4 @@
-package dev.abhishek.food_order_service.core.ports.primary;
+package dev.abhishek.food_order_service.ports.in;
 
 import java.math.BigDecimal;
 

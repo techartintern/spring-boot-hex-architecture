@@ -8,7 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import dev.abhishek.food_order_service.core.domain.FoodItem;
-import dev.abhishek.food_order_service.core.ports.secondary.FoodItemDatabasePort;
+import dev.abhishek.food_order_service.ports.out.FoodItemDatabasePort;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

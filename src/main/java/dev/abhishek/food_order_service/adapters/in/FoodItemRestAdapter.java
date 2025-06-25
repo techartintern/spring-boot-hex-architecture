@@ -1,4 +1,4 @@
-package dev.abhishek.food_order_service.adapters.primary;
+package dev.abhishek.food_order_service.adapters.in;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import dev.abhishek.food_order_service.core.domain.FoodItem;
-import dev.abhishek.food_order_service.core.ports.primary.FetchFoodItemUseCase;
+import dev.abhishek.food_order_service.ports.in.FetchFoodItemUseCase;
 import lombok.RequiredArgsConstructor;
 
 @RestController

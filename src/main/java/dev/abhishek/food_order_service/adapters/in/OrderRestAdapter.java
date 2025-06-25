@@ -1,4 +1,4 @@
-package dev.abhishek.food_order_service.adapters.primary;
+package dev.abhishek.food_order_service.adapters.in;
 
 import java.util.Set;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import dev.abhishek.food_order_service.core.domain.Customer;
 import dev.abhishek.food_order_service.core.domain.Order;
 import dev.abhishek.food_order_service.core.domain.OrderItem;
-import dev.abhishek.food_order_service.core.ports.primary.CreateOrderUseCase;
-import dev.abhishek.food_order_service.core.ports.primary.FetchOrderUseCase;
+import dev.abhishek.food_order_service.ports.in.CreateOrderUseCase;
+import dev.abhishek.food_order_service.ports.in.FetchOrderUseCase;
 import lombok.RequiredArgsConstructor;
 
 @RestController

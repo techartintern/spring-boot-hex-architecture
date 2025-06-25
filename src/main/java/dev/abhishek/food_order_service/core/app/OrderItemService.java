@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 
 import dev.abhishek.food_order_service.core.domain.FoodItem;
 import dev.abhishek.food_order_service.core.domain.OrderItem;
-import dev.abhishek.food_order_service.core.ports.primary.CreateOrderItemUseCase;
-import dev.abhishek.food_order_service.core.ports.primary.FetchOrderItemUseCase;
-import dev.abhishek.food_order_service.core.ports.secondary.OrderItemDatabasePort;
+import dev.abhishek.food_order_service.ports.in.CreateOrderItemUseCase;
+import dev.abhishek.food_order_service.ports.in.FetchOrderItemUseCase;
+import dev.abhishek.food_order_service.ports.out.OrderItemDatabasePort;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

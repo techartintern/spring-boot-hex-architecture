@@ -1,4 +1,4 @@
-package dev.abhishek.food_order_service.core.ports.secondary;
+package dev.abhishek.food_order_service.ports.out;
 
 import java.util.Optional;
 

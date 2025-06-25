@@ -1,4 +1,4 @@
-package dev.abhishek.food_order_service.adapters.secondary.memory;
+package dev.abhishek.food_order_service.adapters.out.memory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Repository;
 
 import dev.abhishek.food_order_service.core.domain.FoodItem;
-import dev.abhishek.food_order_service.core.ports.secondary.FoodItemDatabasePort;
+import dev.abhishek.food_order_service.ports.out.FoodItemDatabasePort;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
