@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: food-order-service
+    profiles:
+        active: dev
+    datasource:
+        name: food-app
+        generate-unique-name: false
+    jpa:
+        hibernate:
+            ddl-auto: update
+server:
+    port: 9191
